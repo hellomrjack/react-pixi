@@ -169,7 +169,7 @@ class Stage extends React.Component {
 
     PixiFiber.updateContainer(null, this.mountNode, this)
     this.renderStage()
-    this.app.destroy()
+    this.app.destroy(false, true)
   }
 
   render() {
